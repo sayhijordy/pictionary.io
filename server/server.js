@@ -9,7 +9,7 @@ global.io = io;
 global.CHAT = CHAT;
 
 app.get("/", (req, res) => {
-  res.redirect('https://karol-waliszewski.github.io/charades.io/');
+  res.redirect('https://git.heroku.com/pictionary-jordy.git');
 });
 
 io.on("connection", socket => {
